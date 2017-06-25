@@ -18,7 +18,7 @@ public class uri1040 {
 
         //calculo da media
         somaDosPesos = peso1 + peso2 + peso3 + peso4;
-        media = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3 + nota4 * peso4) / somaDosPesos;
+        media = (float)(nota1 * peso1 + nota2 * peso2 + nota3 * peso3 + nota4 * peso4) / somaDosPesos;
         //fim do calculo da media
 
         //verificacao de aprovacao

@@ -10,9 +10,12 @@ public class CalculadoraFestaAlexTest {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
-        CalculadoraFestaAlex calculadora1 = new CalculadoraFestaAlex();
-        CalculadoraFestaAlex calculadora2 = new CalculadoraFestaAlex();
         
+        CalculadoraFestaAlex galas = new CalculadoraFestaAlex();
+        CalculadoraFestaAlex tawan = new CalculadoraFestaAlex();
+        CalculadoraFestaAlex eric = new CalculadoraFestaAlex();
+        
+        /*
         System.out.println("galas " + calculadora1.valor);
         System.out.println("tawan " + calculadora2.valor);
         
@@ -33,5 +36,14 @@ public class CalculadoraFestaAlexTest {
         calculadora1.VALOR_IMPOSTO = 2; // nao pode pois é publico
         
         calculadora1.encontrarTotalAPagar();
+*/
+        
+        galas.encontrarTotalAPagar(100, 0.3);
+        
+        galas.metodo("1", "2", "3", "alguma coisa");
+        
+        
+        
+        
     }
 }

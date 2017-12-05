@@ -4,16 +4,47 @@ package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
  *
  * @author Denylson Melo
  */
-public class Aluno {
+public class Aluno extends Pessoa{
 
+    private String matricula;
+    private Curso curso;
+    
+    public Double getMedia(){
+        return 7.;
+    }
+    
+    public Aluno(String nome) {
+        this.setNome(nome);
+    }  
+    
+    @Override
+    public String toString() {
+        return "Aluno: Matricula(" + this.getMatricula() + "), Nome("+ this.getNome() +" ),cpf(" + this.getCpf() +") ,idade(" + this.getIdade() +")";
+    }
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    
+    
+    
+    
+    
+    /*
     //propriedades
-    nome;
-    matricula;
-    idade;
-    cpf;
-    rg;
     escolaOrigem;
-    curso;
     
     //comportamentos
     estudar();
@@ -24,6 +55,9 @@ public class Aluno {
     chorar();
     desistir();
     persistir();
-    
-    
+    */
+
+    public void fazProva(Materia materia) {
+        System.out.println("fazendo a prova: " + materia.getNome());
+    }
 }

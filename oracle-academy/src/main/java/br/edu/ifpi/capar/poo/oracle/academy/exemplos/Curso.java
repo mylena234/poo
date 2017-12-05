@@ -1,0 +1,9 @@
+package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
+
+/**
+ *
+ * @author Denylson Melo
+ */
+public class Curso {
+    
+}

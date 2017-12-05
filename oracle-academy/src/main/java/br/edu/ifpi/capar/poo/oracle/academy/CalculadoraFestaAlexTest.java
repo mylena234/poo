@@ -14,14 +14,14 @@ public class CalculadoraFestaAlexTest {
         CalculadoraFestaAlex eric = new CalculadoraFestaAlex();
        
         
-        int totalGalas = galas.encontrarTotalAPagar(1000);
         
-        tawan.encontrarTotalAPagar(2000, 0.05);
+        double totalTawan = tawan.encontrarTotalAPagar(2000, 0.05);
+        double totalEric = eric.encontrarTotalAPagar(1000.2, 0.4);
         
-        eric.encontrarTotalAPagar(1000.2, 0.4);
+        
         
         //imprimir o total
-        System.out.println();
+        System.out.println(totalEric + totalTawan);
         
         
     }

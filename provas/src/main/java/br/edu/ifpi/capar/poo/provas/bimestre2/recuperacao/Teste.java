@@ -13,7 +13,7 @@ public class Teste {
         Animal animal4 = new Animal();
         
         animal1.emitirSom(); // auu ? som generico
-        animal2.emitirSom(); // relixar
+        animal2.emitirSom(); // relinchar
         animal3.emitirSom(); // zzzz
         animal4.emitirSom(); // som generico
     }
